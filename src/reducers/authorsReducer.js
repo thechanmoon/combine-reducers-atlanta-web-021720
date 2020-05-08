@@ -1,6 +1,6 @@
 import uuid from "uuid";
  
-function authorsReducer(state = [], action) {
+export default function authorsReducer(state = [], action) {
   let idx;
   switch (action.type) {
     case "ADD_AUTHOR":
